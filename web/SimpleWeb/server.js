@@ -5,6 +5,7 @@
 
 // call the packages we need
 var express = require('express');        // call express
+var api = require('./routes/api');
 var app = express();                 // define our app using express
 var bodyParser = require('body-parser');
 app.use(express.static('public'));
@@ -28,7 +29,7 @@ router.get('/', function (req, res) {
 
 // REGISTER OUR ROUTES -------------------------------
 // all of our routes will be prefixed with /api
-app.use('/api', router);
+app.use('/api', api);
 
 // START THE SERVER
 // =============================================================================
