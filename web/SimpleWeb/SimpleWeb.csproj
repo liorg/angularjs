@@ -60,6 +60,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Files\users.json" />
     <Content Include="node_modules\body-parser\index.js" />
     <Content Include="node_modules\body-parser\lib\read.js" />
     <Content Include="node_modules\body-parser\lib\types\json.js" />
@@ -482,8 +483,10 @@
     <Content Include="node_modules\multer\node_modules\xtend\test.js" />
     <Content Include="node_modules\multer\storage\disk.js" />
     <Content Include="node_modules\multer\storage\memory.js" />
+    <Content Include="public\problems.html" />
     <Content Include="public\Links.html" />
-    <Content Include="public\toturial.html" />
+    <Content Include="public\lesson1.html" />
+    <Content Include="public\index.html" />
     <Content Include="routes\api.js" />
     <Content Include="server.js" />
     <Content Include="toturial.htm" />
@@ -1087,6 +1090,7 @@
     <Content Include="node_modules\cookie-parser\package.json" />
     <Content Include="node_modules\cookie-parser\README.md" />
     <Content Include="Docs\nodejs_express_framework.pdf" />
+    <Content Include="routes\users.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
